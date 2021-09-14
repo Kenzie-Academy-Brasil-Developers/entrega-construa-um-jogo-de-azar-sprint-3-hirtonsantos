@@ -1,0 +1,83 @@
+body {
+    background-color: blue;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1, h3, button {
+    margin: 10px;
+}
+
+textarea {
+    width: 209px;
+    height: 122px;
+    background-position: initial;
+}
+
+#circle {
+    width: 160px;
+    height: 145px;
+    border-radius: 60%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto auto auto;
+}
+
+button {
+    width: 140px;
+    height: 60px;
+}
+
+button{            
+    background-image: url(img/aquiTem.jpeg);
+    background-size: 96px 89px;
+    background-position-y: center;
+    width: 96px;
+    height: 55px;
+}
+#circle {
+    background-size: 130px 109px;
+    background-position-y: center;
+    background-position-x: center;
+    width: 104px;
+    height: 86px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 66px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    textarea {
+        width: 310px;
+        height: 157px;
+    }
+
+    button {
+        background-size: 198px 140px;
+        width: 196px;
+        height: 101px;
+    }
+
+    #circle {
+        /*background-size: 323px 300px; */
+        background-size: 288px 266px;
+        background-position-y: center;
+        background-position-x: center;
+        width: 184px;
+        height: 175px;
+    }
+}
